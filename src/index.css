@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0F2851;
+  --color-navy-800: #1a3a6e;
+  --color-navy-700: #1e4585;
+  --color-navy-900: #0d1f3c;
+  --color-sky: #0EA5E9;
+  --color-sky-600: #0284c7;
+  --color-amber: #F59E0B;
+  --color-amber-600: #D97706;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+
+  --shadow-card: 0 4px 24px rgba(15,40,81,0.10);
+  --shadow-card-hover: 0 12px 40px rgba(15,40,81,0.18);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+body {
+  margin: 0;
+  color: #1e293b;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.gradient-hero {
+  background: linear-gradient(135deg, #0d1f3c 0%, #0F2851 50%, #1a3a6e 100%);
+}
+
+.gradient-cta {
+  background: linear-gradient(135deg, #0EA5E9 0%, #0F2851 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #0EA5E9, #F59E0B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
