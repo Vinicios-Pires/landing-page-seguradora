@@ -1,3 +1,9 @@
+# Vanguarda Seguros — Landing Page
+
+> **Projeto puramente demonstrativo.** Todos os dados, nomes, números, depoimentos, informações de contato e número SUSEP presentes nesta aplicação são **fictícios e mockados**, criados exclusivamente para fins de portfólio. Nenhuma informação reflete uma empresa real, produto real ou relação contratual de qualquer natureza.
+
+---
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
